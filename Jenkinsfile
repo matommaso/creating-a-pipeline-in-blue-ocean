@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Ciao'
-        sh 'npm install'
+        sh 'Echo \'Text inside console\''
       }
     }
   }
